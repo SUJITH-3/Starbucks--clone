@@ -1,0 +1,392 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.parent-container{
+    width:100%;
+    height:100%;
+    background-color: #FFFFFF;
+    padding: 0px 100px;
+}
+.navbar-nav{
+    padding-top: 30px;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+}
+.navbar{
+    padding: 0px 80px;
+    background-color: #FFFF;
+    display: flex;
+    align-items: center;
+}
+.navbar-brand{
+    margin-right: 35px;
+}
+.nav-item{
+    margin-right: 35px;
+    font-size: 18px;
+}
+.nav-link:hover{
+    color: #0cf09c;
+}
+.search-bar{
+    width:260px;
+    display: flex;
+    align-items:center;
+    box-shadow: 1px 1px 4px #5e5c5c;
+    border-radius: 15px;
+    padding: 1px 7px;
+    margin-right: 50px;
+}
+#search{
+    padding: 10px;
+    width:100%;
+    outline: none;
+    border: none;
+}
+.fa-user{
+    font-size: 28px;
+    margin-top: 12px;
+}
+img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.img{
+    height: 40px;
+}
+.head-div{
+    width: 100%;
+    background-color: #1E3932;
+    color: #FFFFFF;
+    font-size: 22px;
+    padding: 26px 120px;
+    height: 100px;
+}
+button{
+    padding: 5px 12px;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color: #1E3932;
+    float: right;
+}
+.image img{
+    width:105px;
+    height: 105px;
+    border-radius: 100px;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    row-gap: 8px;
+    padding: 0px 0px 40px;
+}
+.item-head{
+    color: #1E3932;
+    font-size: 25px;
+    font-weight: bold;
+    margin:25px 0px;
+}
+.item-list{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-div{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(223, 196, 157);
+    display: flex;
+    position: relative;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.img-div{
+    height: 200px;
+    width: 100px;
+}
+.text{
+    margin-left: 60px;
+}
+.text h2{
+    
+    font-size: 22px;
+}
+.text-div{
+    margin-top: 10px;
+}
+.banner-div a{
+    background-color:#00754A;
+    border-radius: 15px;
+    padding: 8px 40px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;  
+}
+.card-container{
+    display: flex;
+}
+.card{
+    width: 37%;
+    height: 100%;
+    box-shadow: 0px 0px 4px #5e5c5c;
+    margin-right: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+} 
+.card-img{
+    height:180px;
+    width:100%;
+}
+.card-text{
+    height:100%;
+    padding: 20px;
+}
+.card a{
+    background-color:#00754A;
+    border-radius: 15px;
+    padding: 6px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    float: right;
+}
+ h2{
+    font-size: 17px;
+}
+.card-text p{
+    color: grey;
+    font-size: 14px;
+}
+#para{
+    margin:20px 0px;
+}
+.recommend-div{
+    background-color: #EDEBE9;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.menu{
+    background-color:#FFFFFF;
+    width:400px;
+    height: 100%;
+    padding: 20px;
+   box-shadow: 0px 0px 4px #5e5c5c;
+   margin-right: 30px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.flex-container{
+    display: flex;
+    margin-bottom: 10px;
+}
+.menu-text{
+    margin-left: 20px;
+}
+.menu-text p{
+    color: grey;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.menu-img{
+    width: 90px;
+    height: 75px;
+}
+.menu-img img{
+    border-radius: 10px;
+}
+.menu a{
+    background-color:#00754A;
+    border-radius: 15px;
+    padding: 6px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    float: right;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about{
+    background-color: #EDEBE9;
+    margin:50px 0px;
+}
+.about-body{
+    width:100%;
+    height:430px;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url('coffee.jpg');
+   color: #FFFFFF;
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    position: relative;
+    border-radius: 10px;
+}
+
+.text-content{
+    position: absolute;
+    top:30%;
+    left: 45px;
+    height: 100%;
+}
+.text-content p{
+    margin: 22px 0px 40px;
+}
+.text-content a{
+    background-color:#FFFFFF;
+    border-radius: 15px;
+    padding: 8px 65px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin-bottom: 20px;
+}
+.foot-img{
+    height: 70px;
+    width: 70px;
+}
+li a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.821);
+    margin-bottom: 20px;
+}
+ul h1 a{
+    font-size: 20px;
+    color: rgb(225, 224, 224);
+}
+.fa-brands{
+    font-size: 30px;
+    margin-right: 20px;
+    color: #FFFFFF;
+}
+.icons-container{
+    display: flex;
+}
+footer{
+    background-color:#0E382C;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-one{
+    display: flex;
+    column-gap: 30px;
+}
+.footer-two{
+    display: flex;
+   
+}
+@media screen and (max-width:850px) {
+    .navbar{
+        padding: 0;
+    }
+.item-list{
+    flex-wrap: wrap;
+}
+.menu-container{
+    flex-direction: column;
+}
+.card-container{
+    flex-direction: column;
+}
+.nav-link-one{
+    flex-direction: column;
+}
+.nav-link-two{
+    flex-direction: column;
+}
+header{
+    flex-direction: column;
+}
+.banner-div a{
+    padding: 10px 30px;
+}
+.anchor{
+    margin-top: 20px;
+}
+.text-content{
+    margin-bottom: 20px;
+    left:10px;
+}
+.text-content h1{
+    font-size: 28px;
+}
+.banner-div{
+    flex-direction: column;
+    padding: 20px 0px;
+}
+.banner-div .img-div{
+    align-self:center;
+}
+.parent-container{
+    width: 100%;
+    height: 100%;
+    padding: 0px 25px;
+    margin: auto;
+}
+.head-div{
+    padding: 10px;
+    font-size: 20px;
+}
+.card{
+    width:100%;
+    margin-bottom: 20px;
+}
+.menu{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 3px 8px;
+    display: block;
+}
+.item-head{
+    font-size: 25px;
+}
+footer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.downloads{
+    display:flex;
+    margin-bottom: 20px;
+}
+ul li{
+    margin-bottom: 5px;
+}
+}
+@media (max-width:1000px) and (min-width:850px) {
+.menu-container{
+    flex-wrap: wrap;
+}
+.menu{
+    margin: auto;
+    margin-bottom: 20px;
+}
+.anchor{
+    margin-bottom: 20px;
+}
+}
